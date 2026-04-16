@@ -1,0 +1,21 @@
+# ================================================
+#  RENDER ENVIRONMENT VARIABLES — copy these into
+#  Render Dashboard → Web Service → Environment
+# ================================================
+
+NODE_ENV=production
+PORT=5000
+MONGODB_URI=your_render_mongodb_connection_string
+JWT_SECRET=your_render_jwt_secret
+JWT_EXPIRE=30d
+BCRYPT_SALT_ROUNDS=10
+
+# ⚠️ Fill in your Vercel URL AFTER deploying frontend:
+FRONTEND_URL=http://localhost:5173
+
+# Optional (leave blank for now — mock mode works):
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+RAZORPAY_KEY_ID=
+RAZORPAY_KEY_SECRET=
